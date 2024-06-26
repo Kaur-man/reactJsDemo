@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-family: "arial";
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.header-logo {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.navigation .link {
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation .link.active {
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.navigation-screen {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
